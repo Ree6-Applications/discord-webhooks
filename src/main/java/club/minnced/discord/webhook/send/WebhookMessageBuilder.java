@@ -531,8 +531,6 @@ public class WebhookMessageBuilder {
                 .withParseUsers(allowedMentions.contains(Message.MentionType.USER))
         );
 
-        builder.addComponents(message.getComponents());
-
         return builder;
     }
 
